@@ -1,0 +1,39 @@
+CS342 OS Lab
+Assignment 3
+
+Pushpendra Nagle
+1901CS44
+
+>>Q1
+Compile command: gcc p1.c -o p1
+
+Run command: ./p1 5 5
+Output: 
+Child process_id = 4983 Sum = 10
+Child process_id = 4984 Multiplication = 25
+Parent process_id = 4982 Division = 2
+
+Run command: ./p1 2 4
+Output: 
+Child process_id = 4986 Sum = 6
+Child process_id = 4987 Multiplication = 8
+Parent process_id = 4985 Division = 1
+
+>>Q2
+Compile command: gcc p2.c -o p2
+
+Run command: ./p2
+Output: Hello Hello Hello Hello Hello Hello Hello Hello
+
+>>Q3
+Compile command: gcc p3.c -o p3
+
+Run command: ./p3 task1.sh 3 1 2 3 3 task2.sh 3
+Output:
+Success: Element found at 2 index.
+Result = 30
+
+Run command: ./p3 task1.sh 5 1 2 3 4 5 1 task2.sh 7
+Output:
+Success: Element found at 0 index.
+Result = 85680
